@@ -21,13 +21,21 @@ yarn dev
 pnpm dev
 ```
 
-4.Check the deployed Version here: https://gzie-ecom.vercel.app/
-5. Presentation Video Link: 
+4.Check the deployed Version here:
+```bash
+ https://gzie-ecom.vercel.app/
+```
+5. Presentation Video Link:
+```bash
+ https://drive.google.com/file/d/1ig9E-Ceqg2AjOMIIKv5sbz-AaY_kthpU/view
+```
 
 
 For Login purposes , you can use these credentials:
+```bash
 username: johnd
 password: m38rmF$
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
