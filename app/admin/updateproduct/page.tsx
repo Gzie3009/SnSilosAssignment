@@ -54,7 +54,7 @@ export default function UpdateProductPage({}: Props) {
 
   return (
     <div className="w-full grid place-items-center text-black pb-20">
-      <div className="w-1/2 py-10">
+      <div className="w-full md:w-1/2 py-10">
         <h1 className="text-center pt-10 pb-5 text-3xl font-bold">
           Modify Product
         </h1>

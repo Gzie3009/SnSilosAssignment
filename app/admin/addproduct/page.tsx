@@ -36,7 +36,7 @@ export default function AddProductPage({}: Props) {
   return (
     <>
         <div className='w-full grid place-items-center text-black pb-20'>
-            <div className='w-1/2'>
+            <div className='w-full md:w-1/2'>
                 <h1 className='text-center pt-10 pb-5 text-3xl font-bold'>Add a new Product</h1>
                 <form className='flex flex-col'>
                     <input className='bg-white py-2 my-2 w-full border border-black focus:outline-none rounded px-5' placeholder='Write Product Title' value={product.title} onChange={(e)=>handleInputChange(e.target.name,e.target.value)} name='title' type='text' />
