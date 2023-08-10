@@ -1,8 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-
-First, run the development server:
+1. Clone the repository
+```bash
+git clone https://github.com/Gzie3009/SnSilosAssignment
+```
+2. install all the packages
+```bash
+npm install
+# or
+npm i
+```
+3. run the development server:
 
 ```bash
 npm run dev
@@ -11,6 +20,14 @@ yarn dev
 # or
 pnpm dev
 ```
+
+4.Check the deployed Version here: https://gzie-ecom.vercel.app/
+5. Presentation Video Link: 
+
+
+For Login purposes , you can use these credentials:
+username: johnd
+password: m38rmF$
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
