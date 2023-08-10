@@ -6,6 +6,7 @@ import { loginUser, logoutUser } from "@/app/GlobalRedux/Features/userSlice";
 import CartSlider from "./CartSlider";
 import LoginContainer from "./LoginContainer";
 import { toast } from "react-toastify";
+import Image from "next/image";
 const Navbar = () => {
   const dispatch = useDispatch();
   const [sideNav, setSideNav] = useState<boolean>(false);
@@ -31,10 +32,11 @@ const Navbar = () => {
         <div className="drawer-content flex flex-col">
           <div className="w-full navbar bg-white">
             <Link href={"/"} className="flex-1 lg:p-2 lg:mx-2">
-              <img
+              <Image
+                alt="Icon"
                 className="h-10 w-10 md:h-20 md:w-20"
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAMAAABlApw1AAAAYFBMVEX///+XyT6aykTk8c3Z67rO5aSfzU3s9dzU6K/B34yl0Fjf7sPz+emcy0jH4pjo89Xw9+O73IKp0mD7/fiz13Ks1Ga42nzF4ZTK453g78b3+/G12Hbl8dDW6bP1+eyv1WqRfDJ5AAAEYUlEQVR4nNWd2WLiMAxFEwopW5pCoGzt9P//cugwG1BsKdbVoneTc4iTeFdVwWM53p3Wzaiu22a72h+O+CtKRreb1zexnSytqajRT+/oL7E5WKNRop803+N/xXphjZeNxYN//+9deLUmTMbxLY1/jtHEGjIRXebv/30T3L6RFiMKf13PnVajKQ3/HM2zNet3Qec/f9w6a9r74PB7NODx+6tFXH5vBnx+XwZD+D0ZDOP3YzCU34vBcH4fBiX8HgzK+O0NSvmtDcr5bQ0k+C0NZPjtDKT4rQzk+G0MJPktDGT59Q2k+bUN5Pl1DRj8xJEWXQMGf9tN/Bmw+KvKnQGT353BmMvvzGAAvyuDQfyODAbyuzFg8I/er4u6MODwP90WdmBQxO/AoJDf3KCY39hAgN/UQITf0ECI38xAjN/IQJDfxECU38BAmF/dQJxf2QDAr2oA4ecZFK0MAfHzDArW2sH4WQbrweuLgPwsgzeP/CyDqUf+qnqh//6QBxnOzzEYUIkU+DkG7Euo8DMMtj75GQa8q6jx0w1OTvnpBj+c8pMN6N8CZX6qwadbfqpB75afaEC7mgk/zWDvmJ9ksPLMTzEgfIwN+QkGjW/+vEHrnD9vkCm+sOavXjPrKtKln+z5E/vPfl02Xbr1zp9+Bvq1e/56nio+88+f7BG8B+Cvd4+L0yuQIX/98bg8fQUQZjMqib9OjA2RylvzJ1oSHxH469njX6A+Aab8if7Mcwj+RA0ijgrY8teJbdS0GmTMP3o8yXGMwJ/6ipGa0Rj+JWkH+1c0iVkmyiNgzZ/6Clf5cwjs+ZOjcvln2Jy/Tc4wZZ8jc/4MQW6Bvz1/5iQN9/wvmd+yEODwJxpxlzCoQqL8Bg+xLL/+a1SYX/1DJs2v3ZQQ51duzMnz6zanAfyqHRoIv2KXEsOv16kH8asNq8D4lQa2cPw6Q4tIfo3BXSg/Z35m4PA6lh8/wYHmR08x4fmxk3wK/NBpVhV+4ES3Ej9sqUGvxe9gs0Yhv7lBMb+xgQC/qYEIv6GBEL+ZgRi/kYEgv4mBKL+BgTC/uoE4v7IBgF/VAMKvaADiVzOA8SsZAPlVDKD8CgZgfrgBZUdGYUANFPihBir8QAMlfpjBjLirTSBAB2Oo3QHY0SSRDRTfQpcAHc8T1eDflzimwf9toYgG163ReAa3/YFoBvc9slgGin1iiIHiqATEQHFcCGKgODInY8A4stanAefQYP8GivMDEAPFGRqIgeIcGSVAh8f7NVCcJ4YYKM7UQww4KSwUExhHTyISP41L/EQ68VMZxU8mFT+dV/yEavFT2sVPKhg/rWP8xJrxU5vGTy4bP71v/ATL8VNcx08yHj/NO9/AGz/XoHXHzzO4Hjj1EnQDf/XnEgviGMq8KK0GMjrShpnN4JQU+DiusvijzFEp1rHI3ISN2+rzJ/pJYnfvGnPWjHD00wd3YXOwRiNHt7tz2E4Ux24lYjnendbN+cXaNtvV/iD85vkJiuFRVZxz9VUAAAAASUVORK5CYII="
-              ></img>
+              ></Image>
               <p className="pl-2 text-sm  md:text-2xl text-black">GZIE Store</p>
             </Link>
             <form className="w-1/3 md:w-1/6 pr-5">

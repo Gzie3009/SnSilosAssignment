@@ -1,4 +1,5 @@
 import Axios from "@/app/utils/API/axios";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { toast } from "react-toastify";
@@ -31,7 +32,7 @@ export default function ProductCard({
     <div className="relative group lg:w-1/4 md:w-1/2 p-4 w-full border border-black lg:border-transparent hover:border-black rounded flex flex-col justify-between">
       <div>
         <div className="block relative h-48 rounded overflow-hidden">
-          <img
+          <Image
             alt={`${title}s image`}
             className="object-center w-full h-full block object-scale-down mix-blend-multiply"
             src={image}

@@ -76,7 +76,7 @@ const ProductScreen = ({ params }: { params: { productitem: string } }) => {
           <div className="container px-5 py-24 mx-auto">
             {product && (
               <div className="lg:w-4/5 mx-auto flex flex-wrap">
-                <img
+                <Image
                   alt="ecommerce"
                   className="lg:w-1/2 w-full h-auto object-contain object-center rounded mix-blend-multiply"
                   src={product.image}
