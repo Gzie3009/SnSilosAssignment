@@ -29,7 +29,7 @@ export default function ProductCard({
     >
       <div>
         <div className="block relative h-48 rounded overflow-hidden">
-          <Image
+          <img
             alt={`${title}s image`}
             className="object-center w-full h-full block object-scale-down mix-blend-multiply"
             src={image}

@@ -98,13 +98,13 @@ export default function CartSlider({}: Props) {
             {cartProducts.map((product, index) => (
               <li key={index} className="border-b border-black">
                 <div>
-                  <Image
+                  <img
                     className="h-32 w-32"
                     width={20}
                     height={20}
                     alt={`${product.title}'s image`}
                     src={product.image}
-                  ></Image>{" "}
+                  ></img>{" "}
                   <p>
                     {product.title}{" "}
                     <p className="font-bold">Quantity: {product.quantity}</p>
