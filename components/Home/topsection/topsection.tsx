@@ -5,7 +5,7 @@ const Topsection = () => {
       <div className="w-full p-5 lg:px-10">
         <div className="w-full h-[30vh] md:h-[60vh]">
           <img
-            alt="hero image"
+            alt="heroImage"
             className="h-full w-full rounded-lg"
             src="https://fastly.picsum.photos/id/797/536/354.jpg?hmac=n_-3dZZJdk4lSEk9sES6RNCndoYWXQTwPBif0YSZjrQ"
           ></img>
